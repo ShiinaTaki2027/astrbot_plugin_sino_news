@@ -1,0 +1,12 @@
+name: astrbot_plugin_xtools
+display_name: X 工具集
+short_desc: 给模型用的 X 推文读取与搜索工具
+desc: 注册三个 LLM 工具：查看指定 X 账号的最新推文、按 X 高级搜索语法全站搜索推文、按链接读取单条推文完整内容。搜索走 twitterapi.io，其余走 FxTwitter，均无需登录。
+version: 1.0.0
+author: taki
+astrbot_version: ">=4.26.0"
+support_platforms:
+  - qq_official
+  - aiocqhttp
+  - telegram
+  - lark
